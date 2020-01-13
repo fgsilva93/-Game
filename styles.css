@@ -1,0 +1,45 @@
+h1 {
+    text-align: center;
+}
+
+#board {
+    /*justify-content: center;
+    align-items: center;*/
+    margin: 0 auto;
+    height: 303px;
+    width: 303px;
+    border: 1px black solid;
+    /*float:left;*/
+
+}
+
+div .row div  {
+    /*border: 1px black solid;*/
+    float: left;
+    height: 100px;
+    width: 100px;
+    clear: right; 
+    margin: 0 auto;
+}
+
+.row {
+    margin: 0 auto;
+    width: 302px;
+}
+
+.left {
+    border-right: 1px black solid;
+}
+
+.right {
+    border-left: 1px black solid;
+}
+
+
+.top {
+    border-bottom: 1px solid black;
+}
+
+.bottom {
+    border-top: 1px solid black;
+}
