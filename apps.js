@@ -60,7 +60,7 @@ function reset() {
     for (i = 0; i < boxes.length; i++) {
         boxes[i].innerHTML = " "
         currentPlayer = 'X';
-        //moves = 0;
+        moves = 0;
     }
 }
 
