@@ -1,5 +1,6 @@
 h1 {
     text-align: center;
+    color: white;
 }
 
 #board {
@@ -8,13 +9,12 @@ h1 {
     margin: 0 auto;
     height: 303px;
     width: 303px;
-    /*border: 1px black solid;*/
+    border: 5px white solid;
     /*float:left;*/
 
 }
 
 div .row > div  {
-    /*border: 1px black solid;*/
     font-size: 5vw;
     float: left;
     height: 100px;
@@ -33,6 +33,10 @@ div .row > div:hover {
     width: 302px;
 }
 
+.box {
+    background-color: white;
+}
+
 .left {
     border-right: 1px black solid;
 }
@@ -49,3 +53,9 @@ div .row > div:hover {
 .bottom {
     border-top: 1px solid black;
 }
+body{
+    margin: 0;
+    background: url('https://spacenews.com/wp-content/uploads/2018/05/24359364107_152b0152ff_k-879x485.jpg');
+    background-size: cover;
+}
+
