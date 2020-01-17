@@ -13,13 +13,19 @@ h1 {
 
 }
 
-div .row div  {
+div .row > div  {
     /*border: 1px black solid;*/
+    font-size: 5vw;
     float: left;
     height: 100px;
     width: 100px;
     clear: right; 
     margin: 0 auto;
+    cursor: pointer;
+}
+
+div .row > div:hover {
+    background-color: rgb(176, 190, 190);
 }
 
 .row {
